@@ -1,8 +1,58 @@
-/* Classes */
+/******************************************************
+ * ###################   Elements   ###################
+******************************************************/
+
+/* Sets the general page format */
+body {
+  margin: 0px;
+  background-size: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+/* Set styling for h1 */
+h1 {
+  margin: 0.25em;
+  font-size: 4em;
+  font-weight: 600;
+}
+
+/* set style for h2 */
+h2 {
+  margin: 0.25em;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+/* set style for h3 */
+h3 {
+  margin: 0.25em;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+/******************************************************
+ * ##################   Classes   #####################
+******************************************************/
+
+/* ####################  Headers  ################## */
+
+/* ##################  Positioning  ################ */
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* ###################  Images  ################# */
 
 .img-round-point-btm {
-    padding: 0;
-    margin: 2% 4% 2% 2%;
-    border: 3px solid var(--white);
-    border-radius: 50% 50% 0 50%;
+  padding: 0;
+  margin: 2% 4% 2% 2%;
+  border: 3px solid var(--white);
+  border-radius: 50% 50% 0 50%;
 }
