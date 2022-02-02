@@ -57,11 +57,19 @@ h4 {
 * ####################  Alignment  ######################
 */
 
-.group-center {
-  justify-content: center;
+.align-items-center {
+  align-items: center;
 }
-.item-center {
+.align-self-center {
+  /* align-self: center!important; */
   align-self: center;
+}
+.justify-content {
+  justify-content: center!important;
+}
+
+.space-around {
+  justify-content: space-around;
 }
 
 /* 
@@ -79,8 +87,8 @@ h4 {
 */
 
 .col {
-  display: flex;
   flex-direction: column;
+  max-width: 100%;
 }
 
 .d-flex {
@@ -90,6 +98,7 @@ h4 {
 .row {
   display: flex;
   flex-direction: row;
+  max-width: 100%;
 }
 
 /* 
@@ -111,12 +120,52 @@ h4 {
   margin: 1%;
 }
 
+.m-2 {
+  margin: 2%;
+}
+
+.m-3 {
+  margin: 3%;
+}
+
+.m-4 {
+  margin: 4%;
+}
+
+.m-5 {
+  margin: 5%;
+}
+
 /* 
 * #######################  MISC  ####################### 
 */
 
 .bg-white {
   background-color: white;
+}
+
+/* 
+* ######################  Padding  #####################
+*/
+
+.p-1 {
+  padding: 1%;
+}
+
+.p-2 {
+  padding: 2%;
+}
+
+.p-3 {
+  padding: 3%;
+}
+
+.p-4 {
+  padding: 4%;
+}
+
+.p-5 {
+  padding: 5%;
 }
 
 /* 
