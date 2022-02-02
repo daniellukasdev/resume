@@ -19,23 +19,29 @@
   <body>
     <header class="stencil-blue"></header>
     <main>
-      <div class="row">
+      <div class="row d-flex max-w">
         <div class="col col-single stencil-blue">
-          <div class="col d-flex p-5">
-            <div class="row align-items-center">
-              <!-- photo -->
-              <div class="bg-white align-self-center p-3">
-                <img
-                  src="src/profile-picture.jpg"
-                  width="256px"
-                  class=""
-                  alt="Me"
-                />
+          <div class="col d-flex align-items-center p-5">
+              <!-- banner -->
+              <div class="banner z-index-1 stencil-red p-3">
+                <!-- Name -->
+                <div class="banner-item d-flex flex-center">
+                  <h1 class="">Daniel Lukas</h1>
+                </div>
               </div>
-              <!-- Name -->
-              <div>
-                <h1>Daniel Lukas</h1>
-              </div>
+            <div class="row align-items-center">              
+              <!-- photo bg -->
+              <div class="col max-w relative z-index-2">
+                <!-- photo -->
+                <div class="bg-white align-self-center p-3">
+                  <img
+                    src="src/profile-picture.jpg"
+                    width="256px"
+                    class="max-w"
+                    alt="Me"
+                  />
+                </div>
+              </div>             
             </div>
           </div>
           <!-- Links -->
@@ -127,11 +133,15 @@
         <div class="col col-double">
           <div class="col">
             <!-- Title -->
-            <div>
+            <div class="mb-20">
               <h2>SOFTWARE ENGINEER</h2>
             </div>
           </div>
-          <div>
+          <!-- Spacer -->
+          <div class="bg-white mt-">
+
+          </div>
+          <div class="mt-10">
             <h3>SUMMARY</h3>
             <p>
               I am a Software Engineer proficient in JavaScript, React, HTML,
