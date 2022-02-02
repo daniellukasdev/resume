@@ -1,46 +1,90 @@
-/******************************************************
- * ###################   Elements   ###################
-******************************************************/
+/********************************************************
+ * ####################   Elements   ####################
+********************************************************/
+
+/* For Chrome and Chromium-based browsers only */
+@page {
+    size: 8.5in 11in;
+}
 
 /* Sets the general page format */
 body {
   margin: 0px;
   background-size: 100%;
   font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  height: 1.5em;
+  background-color: black;
 }
 
 /* Set styling for h1 */
 h1 {
   margin: 0.25em;
   font-size: 4em;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 /* set style for h2 */
 h2 {
   margin: 0.25em;
-  font-size: 3em;
-  font-weight: 600;
+  font-size: 2.5em;
+  font-weight: 700;
 }
 
 /* set style for h3 */
 h3 {
   margin: 0.25em;
-  font-size: 2em;
+  font-size: 1.75em;
+  font-weight: 600;
+}
+/* set style for h4 */
+h4 {
+  margin: 0.25em;
+  font-size: 1.5em;
   font-weight: 600;
 }
 
-/******************************************************
- * ##################   Classes   #####################
-******************************************************/
+/********************************************************
+ * ###################   Classes   ######################
+********************************************************/
 
-/* ####################  Headers  ################## */
+/* 
+* ####################  Alignment  ######################
+*/
 
-/* ##################  Positioning  ################ */
+.group-center {
+  justify-content: center;
+}
+.item-center {
+  align-self: center;
+}
+
+/* 
+* ####################  Development  ####################
+*/
+.stencil-blue {
+  background-color: cornflowerblue;
+}
+.stencil-red {
+  background-color: tomato;
+}
+
+/* 
+* #####################  Display  ######################
+*/
 
 .col {
   display: flex;
   flex-direction: column;
+}
+
+.d-flex {
+  display: flex!important;
 }
 
 .row {
@@ -48,11 +92,44 @@ h3 {
   flex-direction: row;
 }
 
-/* ###################  Images  ################# */
+/* 
+* ######################  Images  ###################### 
+*/
 
-.img-round-point-btm {
+.round-point-btm {
   padding: 0;
   margin: 2% 4% 2% 2%;
   border: 3px solid var(--white);
   border-radius: 50% 50% 0 50%;
 }
+
+/* 
+* ######################  Margins  #####################
+*/
+
+.m-1 {
+  margin: 1%;
+}
+
+/* 
+* #######################  MISC  ####################### 
+*/
+
+.bg-white {
+  background-color: white;
+}
+
+/* 
+* #####################  Sizing  ####################### 
+*/
+
+.col-single {
+  flex: 1;
+}
+
+.col-double {
+  flex: 2;
+}
+
+
+
