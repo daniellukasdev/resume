@@ -41,14 +41,14 @@ h2 {
 
 /* set style for h3 */
 h3 {
-  margin: 18px;
-  font-size: 22px;
+  margin: 5px 0 5px 0;
+  font-size: 18px;
   font-weight: 600;
 }
 /* set style for h4 */
 h4 {
   margin: 18px;
-  font-size: 1.5em;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -106,6 +106,35 @@ h4 {
 
 .flex-start {
   justify-content: flex-start;
+}
+
+/* 
+* ####################  Banner  ###################### 
+*/
+
+.banner {
+  width: 8.5in;
+  height: 120px;
+  top: 0px;
+  left: -272px;
+}
+
+.banner-item {
+  right: 150px;
+}
+
+.banner-block {
+  width: 128px;
+  height: 164px;
+  top: -23px;
+  left: -186px;
+  /* left: -290px; */
+}
+
+.profile-pic {
+  margin: 55px 0 25px 0;
+  width: 150px;
+  /* left: -215px; */
 }
 
 /* 
@@ -201,41 +230,8 @@ h4 {
   position: absolute;
 }
 
-.banner {
-  width: 8.5in;
-  height: 120px;
-  top: 0px;
-  left: -272px;
-}
-
-.banner-item {
-  right: 150px;
-}
-
-.banner-block {
-  width: 128px;
-  height: 164px;
-  top: -23px;
-  left: -186px;
-  /* left: -290px; */
-}
-
-.banner-photo-s
-
 .fixed {
   position: fixed;
-}
-
-
-.profile-pic {
-  width: 175px;
-  left: -215px;
-}
-
-.profile-pic-2 {
-  margin: 55px 0 25px 0;
-  width: 150px;
-  /* left: -215px; */
 }
 
 .relative {
@@ -304,3 +300,14 @@ h4 {
   width: 100%;
 }
 
+/* 
+* #####################  Skills  ####################### 
+*/
+
+.skill-group {
+  padding: 5px 30px 5px 15px;
+}
+
+.skil-item {
+  
+}
