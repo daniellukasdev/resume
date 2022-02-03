@@ -204,7 +204,7 @@ h4 {
 .banner {
   width: 8.5in;
   height: 120px;
-  /* top: 8em; */
+  top: 0px;
   left: -272px;
 }
 
@@ -214,8 +214,9 @@ h4 {
 
 .banner-block {
   width: 128px;
-  height: 200px;
-  left: -200px;
+  height: 164px;
+  top: -23px;
+  left: -186px;
   /* left: -290px; */
 }
 
@@ -232,7 +233,7 @@ h4 {
 }
 
 .profile-pic-2 {
-  margin: 96px 0 48px 0;
+  margin: 55px 0 25px 0;
   width: 150px;
   /* left: -215px; */
 }
