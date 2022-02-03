@@ -10,6 +10,8 @@
 /* Sets the general page format */
 body {
   margin: 0px;
+  width: 8.5in;
+  height: 11in;
   background-size: 100%;
   font-family: "Inter", sans-serif;
   font-size: 12px;
@@ -18,33 +20,33 @@ body {
 header {
   margin: 0;
   padding: 0;
-  height: 1.5em;
+  height: 18px;
   background-color: black;
 }
 
 /* Set styling for h1 */
 h1 {
-  margin: 0.25em;
-  font-size: 4em;
+  margin: 18px;
+  font-size: 48px;
   font-weight: 800;
 }
 
 /* set style for h2 */
 h2 {
-  margin: 0.25em;
-  font-size: 2.5em;
+  margin: 20px;
+  font-size: 28px;
   font-weight: 700;
 }
 
 /* set style for h3 */
 h3 {
-  margin: 0.25em;
-  font-size: 1.75em;
+  margin: 18px;
+  font-size: 22px;
   font-weight: 600;
 }
 /* set style for h4 */
 h4 {
-  margin: 0.25em;
+  margin: 18px;
   font-size: 1.5em;
   font-weight: 600;
 }
@@ -93,14 +95,24 @@ h4 {
   justify-content: space-around;
 }
 
+.flex-start {
+  justify-content: flex-start;
+}
+
 /* 
 * ####################  Development  ####################
 */
+
 .stencil-blue {
   background-color: cornflowerblue;
 }
+
 .stencil-red {
   background-color: tomato;
+}
+
+.stencil-green {
+  background-color: aquamarine;
 }
 
 /* 
@@ -115,12 +127,7 @@ h4 {
   display: flex !important;
 }
 
-.max-w {
-  max-width: 100%;
-}
-
 .row {
-  display: flex;
   flex-direction: row;
 }
 
@@ -134,6 +141,10 @@ h4 {
   border: 3px solid var(--white);
   border-radius: 50% 50% 0 50%;
 }
+
+/* 
+* ######################  Links  #######################
+*/
 
 /* 
 * ######################  Margins  #####################
@@ -199,32 +210,75 @@ h4 {
   padding: 5%;
 }
 
+.p-6 {
+  padding: 6%;
+}
+
+.p-7 {
+  padding: 7%;
+}
+
+.pl-11 {
+  padding-left: 11%;
+}
+
 /* 
 * ####################  Position  ###################### 
 */
 
-.banner {
-  width: 100%;
+.absolute {
   position: absolute;
-  top: 8em;
-  left: 0em;
+}
+
+.banner {
+  width: 8.5in;
+  height: 128px;
+  /* top: 8em; */
+  left: -275px;
 }
 
 .banner-item {
-  position: relative;
-  /* left: 20%; */
+  /* left: 12em; */
+}
+
+.banner-block {
+  width: 128px;
+  height: 200px;
+  left: -290px;
+}
+
+.fixed {
+  position: fixed;
+}
+
+
+.profile-pic {
+  width: 175px;
+  left: -215px;
 }
 
 .relative {
   position: relative;
 }
 
-.z-index-1 {
+.stack-0 {
+  z-index: 0;
+}
+
+.stack-1 {
   z-index: 1;
 }
 
-.z-index-2 {
+.stack-2 {
   z-index: 2;
+}
+
+.stack-3 {
+  z-index: 3;
+}
+
+.static {
+  position: static;
 }
 
 /* 
@@ -239,6 +293,35 @@ h4 {
   flex: 2;
 }
 
-.width-max {
-  max-width: 100%;
+.h-25 {
+  height: 25%;
 }
+
+.h-50 {
+  height: 50%;
+}
+
+.h-75 {
+  height: 75%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
