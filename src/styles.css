@@ -150,33 +150,7 @@ h4 {
 * ######################  Margins  #####################
 */
 
-.m-1 {
-  margin: 1%;
-}
 
-.m-2 {
-  margin: 2%;
-}
-
-.m-3 {
-  margin: 3%;
-}
-
-.m-4 {
-  margin: 4%;
-}
-
-.m-5 {
-  margin: 5%;
-}
-
-.mb-20 {
-  margin-bottom: 20em;
-}
-
-.mt-50 {
-  margin-top: 10%;
-}
 
 /* 
 * #######################  MISC  ####################### 
@@ -190,37 +164,10 @@ h4 {
 * ######################  Padding  #####################
 */
 
-.p-1 {
-  padding: 1%;
-}
-
-.p-2 {
-  padding: 2%;
-}
-
 .p-3 {
   padding: 3%;
 }
 
-.p-4 {
-  padding: 4%;
-}
-
-.p-5 {
-  padding: 5%;
-}
-
-.p-6 {
-  padding: 6%;
-}
-
-.p-7 {
-  padding: 7%;
-}
-
-.pl-11 {
-  padding-left: 11%;
-}
 
 /* 
 * ####################  Position  ###################### 
@@ -232,9 +179,9 @@ h4 {
 
 .banner {
   width: 8.5in;
-  height: 128px;
+  height: 120px;
   /* top: 8em; */
-  left: -275px;
+  left: -272px;
 }
 
 .banner-item {
@@ -244,8 +191,11 @@ h4 {
 .banner-block {
   width: 128px;
   height: 200px;
-  left: -290px;
+  left: -200px;
+  /* left: -290px; */
 }
+
+.banner-photo-s
 
 .fixed {
   position: fixed;
@@ -255,6 +205,12 @@ h4 {
 .profile-pic {
   width: 175px;
   left: -215px;
+}
+
+.profile-pic-2 {
+  margin: 89px 0 89px 0;
+  width: 164px;
+  /* left: -215px; */
 }
 
 .relative {
