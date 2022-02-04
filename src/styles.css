@@ -116,7 +116,7 @@ h4 {
   width: 8.5in;
   height: 120px;
   top: 0px;
-  left: -328px;
+  left: -296px;
 }
 
 .banner-item {
@@ -132,7 +132,7 @@ h4 {
 }
 
 .profile-pic {
-  margin: 55px 0 25px 0;
+  margin: 55px 0 15px 0;
   width: 150px;
   /* left: -215px; */
 }
@@ -143,6 +143,10 @@ h4 {
 
 .contact-group {
   margin: 5px 0 5px 0;
+  width: 100%;
+  align-items: flex-start;
+  list-style-position: outside;
+  list-style-type: ">[ i ]< ";
 }
 
 .contact-icon {
@@ -152,6 +156,10 @@ h4 {
 .contact-item {
   color: white;
   text-decoration: none;
+}
+
+.contact-item-link {
+  margin: 12px 0 12px 0;
 }
 
 /* 
@@ -323,9 +331,9 @@ h4 {
   margin: 5px 0 5px 0;
 }
 
-.skill-item {
+/* .skill-item {
   
-}
+} */
 
 .skill-list {
   margin: 12px 0 12px 0;
