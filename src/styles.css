@@ -50,7 +50,13 @@ h3 {
 h4 {
   margin: 18px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
+}
+
+h5 {
+  /* margin: 10px; */
+  font-size: 12px;
+  font-weight: 500;
 }
 
 /********************************************************
@@ -193,6 +199,24 @@ h4 {
 
 .row {
   flex-direction: row;
+}
+
+/* 
+* #####################  Education  ####################
+*/
+
+.edu-list {
+  margin: 0 0 10px 2px;
+  list-style-type: "> ";
+  /* font-size: 10px; */
+}
+
+.edu-deg {
+  margin: 0 0 0 5px;
+}
+
+.edu-school {
+  margin: 5px 0 5px 10px;
 }
 
 /* 
@@ -346,6 +370,7 @@ h4 {
   width: 100%;
   align-self: flex-center;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 
