@@ -26,17 +26,18 @@ header {
 
 /* Set styling for h1 */
 h1 {
-  margin: 18px;
-  font-size: 48px;
+  margin: 0px 18px 64px 18px;
+  font-size: 46px;
   font-weight: 400;
   letter-spacing: 6px;
 }
 
 /* set style for h2 */
 h2 {
-  margin: 20px;
-  font-size: 28px;
+  margin: 30px 45px 10px 10px;
+  font-size: 18px;
   font-weight: 400;
+  letter-spacing: 2px;
 }
 
 /* set style for h3 */
@@ -114,9 +115,9 @@ h4 {
 
 .banner {
   width: 8.5in;
-  height: 120px;
+  height: 96px;
   top: 0px;
-  left: -296px;
+  left: -272px;
 }
 
 .banner-item {
@@ -126,13 +127,13 @@ h4 {
 .banner-block {
   width: 128px;
   height: 164px;
-  top: -23px;
+  top: -35px;
   left: -186px;
   /* left: -290px; */
 }
 
 .profile-pic {
-  margin: 55px 0 15px 0;
+  margin: 33px 0 15px 0;
   width: 150px;
   /* left: -215px; */
 }
