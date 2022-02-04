@@ -15,6 +15,7 @@ body {
   background-size: 100%;
   font-family: "Fira Sans", sans-serif;
   font-size: 12px;
+  line-height: 1.6;
 }
 
 header {
@@ -44,7 +45,7 @@ h2 {
 h3 {
   margin: 5px 0 5px 0;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 /* set style for h4 */
 h4 {
@@ -133,8 +134,8 @@ h5 {
 .banner-block {
   width: 128px;
   height: 164px;
-  top: -35px;
-  left: -186px;
+  top: -42px;
+  left: -192px;
   /* left: -290px; */
 }
 
@@ -166,7 +167,7 @@ h5 {
 }
 
 .contact-item-link {
-  margin: 12px 0 12px 0;
+  margin: 8px 0 8px 0;
 }
 
 /* 
@@ -356,10 +357,6 @@ h5 {
   margin: -2px 0 -2px 0;
 }
 
-/* .skill-item {
-  
-} */
-
 .skill-list {
   margin: 12px 10px 12px 0;
   list-style-type: "> ";
@@ -373,4 +370,20 @@ h5 {
   text-transform: uppercase;
 }
 
+/* 
+* #####################  Summary  ######################
+*/
 
+.summary-group {
+
+}
+
+.summary-text {
+  margin: 0px 35px 5px 35px;
+  line-height: 2;
+}
+
+.summary-title {
+  margin: 5px 35px 20px 35px;
+  letter-spacing: 1px;
+}
