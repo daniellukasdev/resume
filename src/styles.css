@@ -321,14 +321,14 @@ h4 {
 }
 
 .category-title {
-  margin: 5px 0px 10px 0;
+  margin: 5px 0px 15px 0;
   letter-spacing: 1px;
   /* margin-top: 5px;
   margin-bottom: 5px; */
 }
 
 .skill-group {
-  margin: 5px 0 5px 0;
+  margin: -2px 0 -2px 0;
 }
 
 /* .skill-item {
@@ -336,16 +336,14 @@ h4 {
 } */
 
 .skill-list {
-  margin: 12px 0 12px 0;
-  width: 100%;
-  align-items: flex-start;
+  margin: 12px 10px 12px 0;
   list-style-type: "> ";
 }
 
 .skill-title {
   margin: 0 -25px 0 0;
   width: 100%;
-  align-self: flex-start;
+  align-self: flex-center;
   letter-spacing: 2px;
 }
 
