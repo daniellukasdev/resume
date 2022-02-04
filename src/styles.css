@@ -43,7 +43,7 @@ h2 {
 h3 {
   margin: 5px 0 5px 0;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 /* set style for h4 */
 h4 {
@@ -304,10 +304,24 @@ h4 {
 * #####################  Skills  ####################### 
 */
 
-.skill-group {
-  padding: 5px 30px 5px 15px;
+.category {
+  margin: 5px 25px 5px 25px;
 }
 
-.skil-item {
-  
+.category-title {
+  margin: 5px 0px 10px 0;
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+}
+
+.skill-group {
+  margin: 5px 0 5px 0;
+}
+
+.skill-title {
+  margin: 0 -10px 0 0;
+}
+
+.skill-items {
+  margin: 5px 0 5px 0;
 }
