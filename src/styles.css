@@ -415,3 +415,13 @@ h5 {
   margin: 0px 35px 0 35px;
   letter-spacing: 1px;
 }
+
+.title-right-sm {
+  margin: 5px 45px 5px 45px;
+  letter-spacing: 1px;
+}
+
+.date {
+  margin: 2px 55px 2px 55px;
+  letter-spacing: 1px;
+}
