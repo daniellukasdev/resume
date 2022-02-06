@@ -393,10 +393,6 @@ h5 {
 * #####################  Summary  ######################
 */
 
-.summary-group {
-
-}
-
 .summary-text {
   margin: 0px 35px 20px 35px;
   line-height: 2;
@@ -407,17 +403,17 @@ h5 {
 */
 
 .title-right-lg {
-  margin: 5px 35px 20px 35px;
+  margin: 10px 35px 20px 35px;
   letter-spacing: 1px;
 }
 
 .title-right-md {
-  margin: 0px 35px 0 35px;
+  margin: 10px 35px 0 35px;
   letter-spacing: 1px;
 }
 
 .title-right-sm {
-  margin: 5px 45px 5px 45px;
+  margin: 0px 36px 0px 36px;
   letter-spacing: 1px;
 }
 
@@ -425,3 +421,4 @@ h5 {
   margin: 2px 55px 2px 55px;
   letter-spacing: 1px;
 }
+
