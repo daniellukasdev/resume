@@ -27,7 +27,7 @@
     <main>
       <div class="row d-flex w-100">
         <div
-          class="col col-single d-flex flex-center align-items-center stencil-blue"
+          class="col col-single d-flex flex-start align-items-center stencil-blue"
         >
           <div class="relative profile-pic">
             <!-- photo bg -->
@@ -78,114 +78,21 @@
             </ul>
           </div>
           <!-- Skills -->
-          <div class="col d-flex flex-center align-items-center category">
+          <div class="col d-flex flex-center category">
             <h3 class="category-title align-self-start">
               <span>&lt;</span> SKILLS <span>&gt;</span> <span>&lt;/&gt;</span>
             </h3>
-            <div
-              class="col d-flex flex-between align-items-center skill-group w-100"
-            >
-              <h4 class="d-flex skill-title">
-                <span>&lt;</span> Fullstack <span>&gt;</span>
-                <span>&lt;/&gt;</span>
-              </h4>
-              <div class="row d-flex flex-between">
-                <div class="col">
-                  <ul class="skill-list">
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                  </ul>
-                </div>
-                <div class="col">
-                  <ul class="skill-list">
-                    <li>PostgreSQL</li>
-                    <li>Express</li>
-                    <li>Node</li>
-                    <li>Knex</li>
-                  </ul>
-                </div>
-              </div>
+            <div class="col d-flex flex-center category w-100">
+              <ul class="skill-list">
+                <li>Full-Stack Dev</li>
+                <li>Version Control</li>
+                <li>Data Structures</li>
+                <li>Algorithms</li>
+                <li>Unit Testing</li>
+              </ul>
+              <div class="col"></div>
             </div>
 
-            <div
-              class="col d-flex flex-between align-items-center skill-group w-100"
-            >
-              <h4 class="d-flex skill-title">
-                <span>&lt;</span> Others <span>&gt;</span>
-                <span>&lt;/&gt;</span>
-              </h4>
-              <div class="row d-flex flex-between">
-                <div class="col">
-                  <ul class="skill-list">
-                    <li>Git</li>
-                    <li>GitHub</li>
-
-                    <li>Algorithms</li>
-                    <li>Unit Testing</li>
-                    <li>Mocha & Chai</li>
-                  </ul>
-                </div>
-                <div class="col">
-                  <ul class="skill-list">
-                    <li>Data Structures</li>
-                    <li>Linux</li>
-                    <li>Bootstrap</li>
-                    <li>Python</li>
-                    <li>PyQt5</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col d-flex flex-between align-items-center skill-group w-100"
-            >
-              <h4 class="d-flex skill-title">
-                <span>&lt;</span> 3D <span>&gt;</span>
-                <span>&lt;/&gt;</span>
-              </h4>
-              <div class="row d-flex flex-between">
-                <div class="col">
-                  <ul class="skill-list">
-                    <li>Hard Surface <br />Modeling</li>
-                    <li>UV Mapping</li>
-                    <li>Lighting</li>
-                  </ul>
-                </div>
-                <div class="col">
-                  <ul class="skill-list">
-                    <li>Rendering</li>
-                    <li>Procedural <br />Textures <br />& Shaders</li>
-                    <li>Animation</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col d-flex flex-between align-items-center skill-group w-100"
-            >
-              <h4 class="d-flex skill-title">
-                <span>&lt;</span> Software <span>&gt;</span>
-                <span>&lt;/&gt;</span>
-              </h4>
-              <div class="row d-flex flex-between">
-                <div class="col">
-                  <ul class="skill-list">
-                    <li>Blender</li>
-                    <li>Maya</li>
-                    <li>Substance Designer</li>
-                  </ul>
-                </div>
-                <div class="col">
-                  <ul class="skill-list">
-                    <li>Substance Painter</li>
-                    <li>Zbrush</li>
-                    <li>Unreal Engine</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
             <!-- Education -->
             <div>
               <h3 class="category-title align-self-start">
@@ -360,7 +267,7 @@
                 <span>&lt;/&gt;</span>
               </h3>
               <div class="col d-flex">
-                <div class="row d-flex flex-even h-100">
+                <div class="row d-flex flex-start h-100">
                   <div class="col d-flex flex-even date-group">
                     <p class="date-item">Feb 2018 - Oct 2018</p>
                     <p class="date-item">Jun 2001 - Feb 2016</p>
@@ -370,15 +277,15 @@
                     <div class="col d-flex vl relative"></div>
                     <div class="timeline-dot"></div>
                   </div>
-                  
-                  <div class="col d-flex flex-even">
+
+                  <div class="col d-flex flex-even title-group">
                     <div class="col d-flex">
-                      <h4 class="exp-title">Graphic Artist/Sales Associate</h4>
-                      <h5 class="title-right-sm">TJM Promos | Ocala, FL</h5>
+                      <h5 class="exp-title">Graphic Artist/Sales Associate</h5>
+                      <p class="title-right-sm">TJM Promos | Ocala, FL</p>
                     </div>
                     <div class="col d-flex">
-                      <h4 class="exp-title">Customer Service Associate</h4>
-                      <h5 class="title-right-sm">Winn Dixie | Orlando, FL</h5>
+                      <h5 class="exp-title">Customer Service Associate</h5>
+                      <p class="title-right-sm">Winn Dixie | Orlando, FL</p>
                     </div>
                   </div>
                 </div>
@@ -391,6 +298,35 @@
                 <span>&gt;</span>
                 <span>&lt;/&gt;</span>
               </h3>
+              <div class="row d-flex flex-between tech-skills">
+                <div class="col">
+                  <ul class="skill-list-right">
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>PostgreSQL</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul class="skill-list-right">
+                    <li>Express</li>
+                    <li>Node</li>
+                    <li>Knex</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul class="skill-list-right">
+                    <li>Mocha & Chai</li>
+                    <li>Linux</li>
+                    <li>Bootstrap</li>
+                    <li>Python</li>
+                    <li>PyQt5</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
