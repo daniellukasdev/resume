@@ -176,6 +176,10 @@ h5 {
   color: var(--dark-gray);
 }
 
+.dark-purple {
+  color: var(--dark-purple);
+}
+
 .dark-yellow {
   color: var(--dark-yellow);
 }
