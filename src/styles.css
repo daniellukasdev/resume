@@ -395,7 +395,7 @@ h5 {
 * #####################  Skills  ####################### 
 */
 
-.skills-category {
+.category {
   padding: 20px 50px;
   line-height: 2;
 }
@@ -416,7 +416,7 @@ h5 {
 .skills-main {
   display: flex;
   flex-direction: column;
-
+  width: 100%;
 }
 
 /* 
