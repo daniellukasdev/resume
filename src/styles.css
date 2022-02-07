@@ -71,9 +71,12 @@ h5 {
  * ###################   Classes   ######################
 ********************************************************/
 
-.left-col-main {
+.col-group {
   display: flex;
   flex-direction: column;
+}
+
+.left-main {
   flex: 1;
   height: 11in;
   justify-content: flex-start;
@@ -92,6 +95,12 @@ h5 {
   justify-content: flex-end;
 }
 
+.right-col-below-banner {
+  display: flex;
+  flex-direction: column;
+  margin-top: -30px;
+  margin-right: 25px;
+}
 
 /* 
 * ####################  Alignment  ######################
@@ -155,6 +164,8 @@ h5 {
   align-items: center;
 }
 .banner-bg {
+  position: absolute;
+  z-index: 1;
   width: 8.5in;
   height: 96px;
   top: 0px;
@@ -378,10 +389,7 @@ h5 {
   position: fixed;
 }
 
-.left-col-group {
-  margin-top: -30px;
-  margin-right: 25px;
-}
+
 
 .relative {
   position: relative;
@@ -451,6 +459,10 @@ h5 {
 * #####################  Summary  ######################
 */
 
+.right-col-group {
+  display: flex;
+  flex-direction: column;
+}
 .summary-text {
   margin: 0px 35px 10px 35px;
   line-height: 2;
