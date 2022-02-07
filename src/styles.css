@@ -4,7 +4,7 @@
 
 :root {
   /* Dark theme */
-  --jetdark: #1E2127;
+  --jetdark: #1e2127;
   --black: #282c34;
   --red: #e06c75;
   --yellow: #e5c07b;
@@ -13,7 +13,7 @@
   --blue: #61afef;
   --purple: #c678dd;
   --light-gray: #abb2bf;
-  --bright-gray: #D9E1F2;
+  --bright-gray: #d9e1f2;
   /* Light Theme */
   --dark-gray: #5c6370;
   --dark-red: #e45649;
@@ -101,16 +101,32 @@ h5 {
 
 /* gradient */
 
-.gradient-dark-gray {
+.gradient-bg-dark-gray {
   background: linear-gradient(60deg, var(--jetdark) 0%, var(--black) 50%);
 }
 
-.gradient-light-gray {
-  background: linear-gradient(60deg, var(--dark-gray) 0%, var(--light-gray) 50%);
+.gradient-bg-light-gray {
+  background: linear-gradient(
+    60deg,
+    var(--dark-gray) 0%,
+    var(--light-gray) 50%
+  );
 }
 
-.gradient-bright-gray {
+.gradient-bg-bright-gray {
   background: linear-gradient(60deg, var(--bright-gray) 0%, white 75%);
+}
+
+.gradient-bg-blue {
+  background-image: linear-gradient(
+    60deg,
+    var(--dark-blue) 0%,
+    var(--blue) 50%
+  );
+}
+
+.gradient-bg-gray-cyan-vert {
+  background: linear-gradient(var(--dark-gray) 0%, var(--light-gray) 100%);
 }
 
 /* solid */
@@ -118,15 +134,28 @@ h5 {
   background-color: var(--black);
 }
 
+.dark-gray-bg {
+  background-color: var(--dark-gray);
+}
+
+.cyan-bg {
+  background-color: var(--cyan);
+}
+
 .gray-bg {
   background-color: var(--light-gray);
+}
+
+.green-bg {
+  background-color: var(--dark-green);
 }
 
 .light-bg {
   background-color: var(--light-gray);
 }
 
-/* colors */
+/* ------------ colors ------------ */
+
 .blue {
   color: var(--blue);
 }
@@ -304,6 +333,7 @@ h5 {
 .edu-list {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   padding: 5px 12px;
   margin: 0 -2px 0 0;
   list-style-type: "> ";
@@ -371,7 +401,7 @@ h5 {
 .timeline-dot {
   width: 8px;
   height: 8px;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .vertical-line {
@@ -380,7 +410,7 @@ h5 {
   width: 2px;
   height: 33px;
   left: 3px;
-  background-color: black;
+  /* background-color: black; */
 }
 
 /* 
