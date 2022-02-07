@@ -4,7 +4,7 @@
 
 :root {
   /* Dark theme */
-  --jetdark: #17191E;
+  --jet-black: #17191E;
   --black: #282c34;
   --red: #e06c75;
   --yellow: #e5c07b;
@@ -102,7 +102,7 @@ h5 {
 /* gradient */
 
 .gradient-bg-dark-gray {
-  background: linear-gradient(60deg, var(--jetdark) 0%, var(--black) 50%);
+  background: linear-gradient(60deg, var(--jet-black) 0%, var(--black) 50%);
 }
 
 .gradient-bg-light-gray {
@@ -391,7 +391,7 @@ h5 {
 }
 
 /* .shadow-down-left {
-  box-shadow: -8px 16px 24px var(--jetdark);
+  box-shadow: -8px 16px 24px var(--jet-black);
 } */
 
 .shadow-down-right {
@@ -407,11 +407,11 @@ h5 {
 }
 
 .shadow-in-right {
-  box-shadow: inset -20px -20px 20px var(--jetdark);
+  box-shadow: inset -20px -20px 20px var(--jet-black);
 }
 
 .shadow-in-up {
-  box-shadow: inset 0px -26px 20px var(--jetdark);
+  box-shadow: inset 0px -26px 20px var(--jet-black);
 }
 
 
@@ -478,7 +478,7 @@ h5 {
 .project-link {
   margin: 5px 45px 5px 45px;
   letter-spacing: 1px;
-  color: black;
+  /* color: black; */
   /* font-weight: 500; */
   text-decoration: none;
 }
