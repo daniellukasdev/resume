@@ -88,6 +88,10 @@ h5 {
 .dark-bg {
   background-color: var(--black);
 }
+
+.gray-bg {
+  background-color: var(--light-gray);
+}
 /* 
 * #####################  Layout  #######################
 */
