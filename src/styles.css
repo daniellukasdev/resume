@@ -112,9 +112,22 @@ h5 {
   background-color: var(--black);
 }
 
+.dark-cyan {
+  color: var(--dark-cyan);
+}
+
+.dark-green {
+  color: var(--dark-green);
+}
+
 .dark-gray{
   color: var(--dark-gray);
 }
+
+.dark-yellow {
+  color: var(--dark-yellow);
+}
+
 .gray {
   color: var(--light-gray);
 }
