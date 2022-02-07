@@ -156,6 +156,9 @@ h5 {
 
 /* ------------ colors ------------ */
 
+.black {
+  color: var(--black);
+}
 .blue {
   color: var(--blue);
 }
@@ -168,6 +171,9 @@ h5 {
   color: var(--dark-cyan);
 }
 
+.dark-blue {
+  color: var(--dark-blue);
+}
 .dark-green {
   color: var(--dark-green);
 }
