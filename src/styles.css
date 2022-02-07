@@ -78,6 +78,12 @@ h5 {
   color: white;
 }
 
+.right-col-main {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
 /* 
 * ####################  Alignment  ######################
 */
@@ -184,6 +190,8 @@ h5 {
   /* align-self: flex-start; */
 }
 
+/* ----  Skills  ---- */
+
 .category-list {
   display: flex;
   flex-direction: column;
@@ -198,6 +206,25 @@ h5 {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+
+/* ----  Education  ---- */
+
+.edu-deg {
+  margin: 0 0 0 2px;
+}
+
+.edu-list {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px;
+  margin: 0;
+  list-style-type: "> ";
+}
+
+.edu-school {
+  margin: 5px 0 5px 10px;
 }
 
 /* 
@@ -256,25 +283,7 @@ h5 {
   flex-direction: row;
 }
 
-/* 
-* #####################  Education  ####################
-*/
 
-.edu-deg {
-  margin: 0 0 0 2px;
-}
-
-.edu-list {
-  display: flex;
-  flex-direction: column;
-  padding: 5px 15px;
-  margin: 0;
-  list-style-type: "> ";
-}
-
-.edu-school {
-  margin: 5px 0 5px 10px;
-}
 
 /* 
 * #####################  Experience  ##################
