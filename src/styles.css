@@ -282,6 +282,7 @@ h5 {
   position: absolute;
   z-index: 1;
   width: 8.2in;
+  /* width: 8.5in; */
   height: 96px;
   top: 0px;
   left: -272px;
