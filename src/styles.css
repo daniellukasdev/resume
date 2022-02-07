@@ -386,12 +386,16 @@ h5 {
 * ######################  Effects  ####################
 */
 
-.shadow-down {
-  box-shadow: 0px 12px 20px rgba(40, 44, 52, .4);
+.shadow-down-left {
+  box-shadow: -6px 12px 24px rgba(23,25, 30, .6);
 }
 
+/* .shadow-down-left {
+  box-shadow: -8px 16px 24px var(--jetdark);
+} */
+
 .shadow-down-right {
-  box-shadow: 6px 12px 20px rgba(40, 44, 52, .4);
+  box-shadow: 6px 12px 20px rgba(23,25, 30, .6);
 }
 
 .shadow-right {
