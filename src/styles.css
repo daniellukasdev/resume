@@ -56,10 +56,10 @@ h1 {
   margin: 0px 18px 64px 18px;
   position: relative;
   z-index: 3;
-  right: 170px;
+  right: 154px;
   font-size: 46px;
   font-weight: 500;
-  letter-spacing: 6px;
+  letter-spacing: 9px;
   color: white;
 }
 
@@ -67,8 +67,8 @@ h1 {
 h2 {
   margin: 30px 45px 10px 10px;
   font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 2px;
+  font-weight: 500;
+  letter-spacing: 4px;
 }
 
 /* set style for h3 */
@@ -180,6 +180,10 @@ h5 {
   color: var(--dark-purple);
 }
 
+.dark-red {
+  color: var(--dark-red);
+}
+
 .dark-yellow {
   color: var(--dark-yellow);
 }
@@ -228,6 +232,7 @@ h5 {
   justify-content: flex-start;
   align-items: center;
   color: white;
+  /* font-weight: 500; */
 }
 
 .j-center-a-i-start {
