@@ -28,6 +28,9 @@ header {
 /* Set styling for h1 */
 h1 {
   margin: 0px 18px 64px 18px;
+  position: relative;
+  z-index: 3;
+  right: 170px;
   font-size: 46px;
   font-weight: 400;
   letter-spacing: 6px;
@@ -60,78 +63,80 @@ h5 {
   font-weight: 500;
 }
 
+/* .img {
+  width: 100%;
+} */
+
 /********************************************************
  * ###################   Classes   ######################
 ********************************************************/
 
 /* 
-* ####################  Alignment  ######################
+* #####################  Layout  #######################
 */
 
-.align-items-center {
+.row-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-main {
+  flex: 1;
+  height: 11in;
+  justify-content: flex-start;
   align-items: center;
+  color: white;
 }
 
-.align-items-end {
-  align-items: flex-end;
-}
-
-.align-items-start {
+.j-center-a-i-start {
+  justify-content: center;
   align-items: flex-start;
 }
 
-.align-self-center {
-  /* align-self: center!important; */
-  align-self: center;
-}
-.align-self-start {
-  align-self: flex-start;
-}
-
-.align-self-end {
-  align-self: flex-end;
-}
-
-.flex-between {
-  justify-content: space-between;
-}
-
-.flex-center {
-  justify-content: center !important;
-}
-
-.flex-end {
+.job-title {
+  display: flex;
   justify-content: flex-end;
 }
 
-.flex-even {
-  justify-content: space-evenly;
+.right-below-banner {
+  margin-top: -30px;
+  margin-right: 25px;
 }
 
-.flex-space-around {
-  justify-content: space-around;
+.right-main {
+  flex: 2;
 }
 
-.flex-start {
-  justify-content: flex-start;
+.w-100 {
+  width: 100%;
 }
 
 /* 
 * ####################  Banner  ###################### 
 */
-
-.banner {
+.banner-group {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-bg {
+  position: absolute;
+  z-index: 1;
   width: 8.5in;
   height: 96px;
   top: 0px;
   left: -272px;
 }
 
-.banner-item {
-  right: 150px;
-}
-
 .banner-block {
+  position: relative;
+  z-index: 2;
   width: 128px;
   height: 164px;
   top: -35px;
@@ -139,28 +144,86 @@ h5 {
   /* left: -290px; */
 }
 
+.photo-frame {
+  padding: 6px;
+  display: flex;
+  position: relative;
+  z-index: 3;
+  background-color: white;
+}
+
 .profile-pic {
   margin: 33px 0;
   width: 150px;
   top: 26px;
-  /* left: -215px; */
+  position: relative;
+}
+
+/* 
+* #####################  Categories  ####################### 
+*/
+
+.category {
+  align-self: flex-start;
+  padding: 20px 50px;
+  line-height: 2;
+}
+
+.category-title {
+  margin: 5px 0px 5px 5px;
+  letter-spacing: 1px;
+  /* align-self: flex-start; */
+}
+
+/* ----  Skills  ---- */
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 18px;
+  margin: 0;
+  list-style-type: ">  ";
+}
+
+.skills-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* ----  Education  ---- */
+
+.edu-deg {
+  margin: 0 0 0 2px;
+}
+
+.edu-list {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px;
+  margin: 0;
+  list-style-type: "> ";
+}
+
+.edu-school {
+  margin: 5px 0 5px 10px;
 }
 
 /* 
 * #####################  Contact  ######################
 */
 
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .contact-group {
-  /* top: -36px; */
   margin: 20px 0 5px 0;
   width: 100%;
-  align-items: flex-start;
-  list-style-position: outside;
   list-style-type: ">[ i ]< ";
-}
-
-.contact-icon {
-  margin-right: 10px;
 }
 
 .contact-item {
@@ -173,59 +236,13 @@ h5 {
 }
 
 /* 
-* ####################  Development  ####################
-*/
-
-.stencil-blue {
-  background-color: cornflowerblue;
-}
-
-.stencil-red {
-  background-color: tomato;
-}
-
-.stencil-green {
-  background-color: aquamarine;
-}
-
-/* 
-* #####################  Display  ######################
-*/
-
-.col {
-  flex-direction: column;
-}
-
-.d-flex {
-  display: flex !important;
-}
-
-.row {
-  flex-direction: row;
-}
-
-/* 
-* #####################  Education  ####################
-*/
-
-.edu-list {
-  margin: 0 0 10px 2px;
-  list-style-type: "> ";
-  /* font-size: 10px; */
-}
-
-.edu-deg {
-  margin: 0 0 0 5px;
-}
-
-.edu-school {
-  margin: 5px 0 5px 10px;
-}
-
-/* 
 * #####################  Experience  ##################
 */
 
+.exp-group {
+  justify-content: flex-start;
+  height: 100%;
+}
 .exp-title {
   margin: 5px 25px 0 25px;
   letter-spacing: 1px;
@@ -238,6 +255,7 @@ h5 {
 
 .date-group {
   margin: -15px 25px 0px 55px;
+  justify-content: space-evenly;
 }
 
 .date-item {
@@ -246,19 +264,17 @@ h5 {
 }
 
 .dot-group {
+  align-self: flex-start;
   margin-top: 8px;
 }
 .timeline-dot {
-  /* border: 2px solid black; */
-  /* margin: 5px 0 5px 0; */
   width: 8px;
   height: 8px;
   background-color: black;
-  /* border-radius: 50% 50% 50% 50%; */
 }
 
-.vl {
-  /* border: 2px solid black; */
+.vertical-line {
+  position: relative;
   margin: 0;
   width: 2px;
   height: 33px;
@@ -273,60 +289,6 @@ h5 {
 .header {
   width: 100%;
   height: 19px;
-  /* top: 0px; */
-  /* left: -272px; */
-}
-/* 
-* #######################  MISC  ####################### 
-*/
-
-.bg-white {
-  background-color: white;
-}
-
-/* 
-* ######################  Padding  #####################
-*/
-
-.p-3 {
-  padding: 3%;
-}
-
-/* 
-* ####################  Position  ###################### 
-*/
-
-.absolute {
-  position: absolute;
-}
-
-.fixed {
-  position: fixed;
-}
-
-.left-col-group {
-  margin-top: -30px;
-  margin-right: 25px;
-}
-
-.relative {
-  position: relative;
-}
-
-.stack-0 {
-  z-index: 0;
-}
-
-.stack-1 {
-  z-index: 1;
-}
-
-.stack-2 {
-  z-index: 2;
-}
-
-.stack-3 {
-  z-index: 3;
 }
 
 /* 
@@ -347,58 +309,13 @@ h5 {
 }
 
 /* 
-* #####################  Sizing  ####################### 
-*/
-
-.col-single {
-  flex: 1;
-  height: 11in;
-}
-
-.col-double {
-  flex: 2;
-}
-
-.col-triple {
-  flex: 3;
-}
-
-
-.h-100 {
-  height: 100%;
-}
-
-.w-100 {
-  width: 100%;
-}
-
-/* 
-* #####################  Skills  ####################### 
-*/
-
-.category {
-  padding: 20px 50px;
-  line-height: 2;
-}
-
-.category-title {
-  margin: 5px 0px 5px 5px;
-  letter-spacing: 1px;
-  /* margin-top: 5px;
-  margin-bottom: 5px; */
-}
-
-.skill-list {
-  padding: 5px 15px;
-  margin: 0;
-  list-style-type: "> ";
-}
-
-
-/* 
 * #####################  Summary  ######################
 */
 
+.right-col-group {
+  display: flex;
+  flex-direction: column;
+}
 .summary-text {
   margin: 0px 35px 10px 35px;
   line-height: 2;
@@ -414,6 +331,7 @@ h5 {
 }
 
 .tech-skills {
+  justify-content: space-between;
   margin: 5px 20px;
   line-height: 1.6;
 }
@@ -430,4 +348,20 @@ h5 {
 .title-right-md {
   margin: 8px 35px 0 35px;
   letter-spacing: 1px;
+}
+
+/* 
+* ####################  Development  ####################
+*/
+
+.stencil-blue {
+  background-color: cornflowerblue;
+}
+
+.stencil-red {
+  background-color: tomato;
+}
+
+.stencil-green {
+  background-color: aquamarine;
 }
