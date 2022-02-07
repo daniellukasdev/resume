@@ -107,6 +107,13 @@ h5 {
 * ####################  Alignment  ######################
 */
 
+.j-center-a-i-start {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+
 .align-items-center {
   align-items: center;
 }
@@ -428,6 +435,8 @@ h5 {
   margin: 0 0 0 20px;
   list-style-type: "> ";
 }
+
+
 
 /* 
 * #####################  Sizing  ####################### 
