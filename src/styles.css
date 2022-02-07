@@ -3,14 +3,24 @@
 ********************************************************/
 
 :root {
+  /* Dark theme */
   --black: #282c34;
   --red: #e06c75;
-  --green: #98c379;
   --yellow: #e5c07b;
+  --green: #98c379;
+  --cyan: #56b6c2;
   --blue: #61afef;
   --purple: #c678dd;
-  --cyan: #56b6c2;
   --light-gray: #abb2bf;
+  /* Light Theme */
+  --dark-gray: #5C6370;
+  --dark-red: #E45649;
+  --dark-yellow: #C18401;
+  --dark-green: #50A14F;
+  --dark-cyan: #0184BC;
+  --dark-blue: #4078F2;
+  --dark-purple: #A626A4;
+  
 }
 
 /********************************************************
@@ -102,8 +112,22 @@ h5 {
   background-color: var(--black);
 }
 
+.dark-gray{
+  color: var(--dark-gray);
+}
+.gray {
+  color: var(--light-gray);
+}
 .gray-bg {
   background-color: var(--light-gray);
+}
+
+.green {
+  color: var(--green);
+}
+
+.purple {
+  color: var(--purple);
 }
 
 .red {
@@ -112,6 +136,10 @@ h5 {
 
 .white {
   color: white;
+}
+
+.yellow {
+  color: var(--yellow);
 }
 
 /* 
@@ -223,7 +251,7 @@ h5 {
   flex-direction: column;
   padding: 5px 18px;
   margin: 0;
-  list-style-type: ">  ";
+  list-style-type: "/   ";
 }
 
 .skills-main {
@@ -243,8 +271,8 @@ h5 {
 .edu-list {
   display: flex;
   flex-direction: column;
-  padding: 5px 15px;
-  margin: 0;
+  padding: 5px 12px;
+  margin: 0 -2px 0 0;
   list-style-type: "> ";
 }
 
@@ -268,7 +296,6 @@ h5 {
 }
 
 .contact-item {
-  color: white;
   text-decoration: none;
 }
 
