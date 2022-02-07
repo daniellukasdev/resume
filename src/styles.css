@@ -134,15 +134,15 @@ h5 {
 .banner-block {
   width: 128px;
   height: 164px;
-  top: -42px;
+  top: -35px;
   left: -192px;
   /* left: -290px; */
 }
 
 .profile-pic {
-  margin: 33px 0 15px 0;
+  margin: 33px 0;
   width: 150px;
-  top: -36px;
+  top: 26px;
   /* left: -215px; */
 }
 
@@ -151,8 +151,8 @@ h5 {
 */
 
 .contact-group {
-  top: -36px;
-  margin: 5px 0 5px 0;
+  /* top: -36px; */
+  margin: 20px 0 5px 0;
   width: 100%;
   align-items: flex-start;
   list-style-position: outside;
@@ -236,10 +236,6 @@ h5 {
   letter-spacing: 1px;
 }
 
-.title-group {
-  /* margin-left: -10px; */
-}
-
 .date-group {
   margin: -15px 25px 0px 55px;
 }
@@ -271,20 +267,15 @@ h5 {
 }
 
 /* 
-* ######################  Images  ###################### 
+* ####################  Header  ###################### 
 */
 
-.round-point-btm {
-  padding: 0;
-  margin: 2% 4% 2% 2%;
-  border: 3px solid var(--white);
-  border-radius: 50% 50% 0 50%;
+.header {
+  width: 100%;
+  height: 19px;
+  /* top: 0px; */
+  /* left: -272px; */
 }
-
-/* 
-* ######################  Margins  #####################
-*/
-
 /* 
 * #######################  MISC  ####################### 
 */
@@ -314,7 +305,8 @@ h5 {
 }
 
 .left-col-group {
-  margin-top: -60px;
+  margin-top: -30px;
+  margin-right: 25px;
 }
 
 .relative {
@@ -385,33 +377,23 @@ h5 {
 */
 
 .category {
-  margin: 5px 25px 5px 25px;
+  padding: 20px 50px;
+  line-height: 2;
 }
 
 .category-title {
-  margin: 5px 0px 10px 0;
+  margin: 5px 0px 5px 5px;
   letter-spacing: 1px;
   /* margin-top: 5px;
   margin-bottom: 5px; */
 }
 
-.skill-group {
-  margin: -2px 0 -2px 0;
-}
-
 .skill-list {
-  padding: 0;
+  padding: 5px 15px;
   margin: 0;
   list-style-type: "> ";
 }
 
-.skill-title {
-  margin: 0 -25px 0 0;
-  width: 100%;
-  align-self: flex-center;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
 
 /* 
 * #####################  Summary  ######################
@@ -427,7 +409,7 @@ h5 {
 */
 
 .skill-list-right {
-  margin: 10px 10px 10px 0;
+  margin: 0px 10px 10px 0;
   list-style-type: "> ";
 }
 
@@ -441,11 +423,11 @@ h5 {
 */
 
 .title-right-lg {
-  margin: 3px 35px;
+  margin: 8px 35px;
   letter-spacing: 2px;
 }
 
 .title-right-md {
-  margin: 5px 35px 0 35px;
+  margin: 8px 35px 0 35px;
   letter-spacing: 1px;
 }
