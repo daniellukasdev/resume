@@ -169,6 +169,38 @@ h5 {
 }
 
 /* 
+* #####################  Categories  ####################### 
+*/
+
+.category {
+  align-self: flex-start;
+  padding: 20px 50px;
+  line-height: 2;
+}
+
+.category-title {
+  margin: 5px 0px 5px 5px;
+  letter-spacing: 1px;
+  /* align-self: flex-start; */
+}
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px;
+  margin: 0;
+  list-style-type: "> ";
+}
+
+.skills-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* 
 * #####################  Contact  ######################
 */
 
@@ -391,33 +423,7 @@ h5 {
   width: 100%;
 }
 
-/* 
-* #####################  Skills  ####################### 
-*/
 
-.category {
-  padding: 20px 50px;
-  line-height: 2;
-}
-
-.category-title {
-  margin: 5px 0px 5px 5px;
-  letter-spacing: 1px;
-  /* margin-top: 5px;
-  margin-bottom: 5px; */
-}
-
-.skill-list {
-  padding: 5px 15px;
-  margin: 0;
-  list-style-type: "> ";
-}
-
-.skills-main {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
 
 /* 
 * #####################  Summary  ######################
