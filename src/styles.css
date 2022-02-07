@@ -75,6 +75,7 @@ h5 {
   height: 11in;
   justify-content: flex-start;
   align-items: center;
+  color: white;
 }
 
 /* 
@@ -179,13 +180,7 @@ h5 {
 .contact-group {
   margin: 20px 0 5px 0;
   width: 100%;
-  align-items: flex-start;
-  list-style-position: outside;
   list-style-type: ">[ i ]< ";
-}
-
-.contact-icon {
-  margin-right: 10px;
 }
 
 .contact-item {
@@ -400,7 +395,7 @@ h5 {
 * #####################  Skills  ####################### 
 */
 
-.category {
+.skills-category {
   padding: 20px 50px;
   line-height: 2;
 }
@@ -416,6 +411,12 @@ h5 {
   padding: 5px 15px;
   margin: 0;
   list-style-type: "> ";
+}
+
+.skills-main {
+  display: flex;
+  flex-direction: column;
+
 }
 
 /* 
