@@ -57,7 +57,7 @@ h1 {
   z-index: 3;
   right: 170px;
   font-size: 46px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 6px;
   color: white;
 }
@@ -99,17 +99,26 @@ h5 {
 /********************************************************
  * ###################   Classes   ######################
 ********************************************************/
+/* background colors */
 
+.dark-bg {
+  background-color: var(--black);
+}
+.gray-bg {
+  background-color: var(--light-gray);
+}
+.light-bg {
+  background-color: var(--light-gray);
+}
+
+
+/* colors */
 .blue {
   color: var(--blue);
 }
 
 .cyan {
   color: var(--cyan);
-}
-
-.dark-bg {
-  background-color: var(--black);
 }
 
 .dark-cyan {
@@ -130,9 +139,6 @@ h5 {
 
 .gray {
   color: var(--light-gray);
-}
-.gray-bg {
-  background-color: var(--light-gray);
 }
 
 .green {
