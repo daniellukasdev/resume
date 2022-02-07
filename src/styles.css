@@ -73,7 +73,7 @@ h5 {
 }
 
 .align-items-end {
-  align-items: flex-end ;
+  align-items: flex-end;
 }
 
 .align-items-start {
@@ -221,6 +221,54 @@ h5 {
 }
 
 /* 
+* #####################  Experience  ##################
+*/
+
+.exp-group {
+  margin-left: 35px;
+}
+
+.exp-title {
+  margin: 5px 25px 0 25px;
+  letter-spacing: 1px;
+}
+
+.title-right-sm {
+  margin: 0px 26px 0px 26px;
+  letter-spacing: 1px;
+}
+
+.date-group {
+  margin: -15px 25px 0px 25px;
+}
+
+.date-item {
+  margin: 1px 0px 1px 0px;
+  letter-spacing: 1px;
+}
+
+.dot-group {
+  margin-top: 10px;
+}
+.timeline-dot {
+  /* border: 2px solid black; */
+  /* margin: 5px 0 5px 0; */
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.vl {
+  /* border: 2px solid black; */
+  margin: 0;
+  width: 2px;
+  height: 38px;
+  left: 4px;
+  background-color: black;
+}
+
+/* 
 * ######################  Images  ###################### 
 */
 
@@ -231,13 +279,9 @@ h5 {
   border-radius: 50% 50% 0 50%;
 }
 
-
-
 /* 
 * ######################  Margins  #####################
 */
-
-
 
 /* 
 * #######################  MISC  ####################### 
@@ -254,7 +298,6 @@ h5 {
 .p-3 {
   padding: 3%;
 }
-
 
 /* 
 * ####################  Position  ###################### 
@@ -411,14 +454,3 @@ h5 {
   margin: 10px 35px 0 35px;
   letter-spacing: 1px;
 }
-
-.title-right-sm {
-  margin: 0px 36px 0px 36px;
-  letter-spacing: 1px;
-}
-
-.date {
-  margin: 2px 55px 2px 55px;
-  letter-spacing: 1px;
-}
-
