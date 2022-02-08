@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="geotag" transform="matrix(1.06735,0,0,1.06735,-4.31049,-2.93464)">
+        <path d="M32.838,72.036C28.179,64.104 22.97,55.54 22.97,45.357C22.97,22.712 41.355,4.327 64,4.327C86.645,4.327 105.03,22.712 105.03,45.357C105.03,55.54 100.266,63.842 95.162,72.036L64,121.095L32.838,72.036Z" style="fill:#56b6c2;"/>
+    </g>
+</svg>

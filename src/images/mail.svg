@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Mail" transform="matrix(1.03108,0,0,1.06794,-1.98924,-4.34505)">
+        <g>
+            <g transform="matrix(1,0,0,1,-0.37141,-8.31844)">
+                <rect x="3.834" y="30.785" width="121.075" height="83.067" style="fill:#56b6c2;"/>
+            </g>
+            <g transform="matrix(1.00834,0,0,1,-0.533683,-11.6625)">
+                <g transform="matrix(5.80528,-0.0113861,-0.00472926,-2.41125,-304.882,149.714)">
+                    <path d="M63.568,17.445L73.905,39.781L73.911,47.529L53.251,47.626L53.244,39.78L63.568,17.445Z" style="fill:#282c34;"/>
+                </g>
+                <g transform="matrix(5.81364,-5.63292e-16,-7.55572e-16,-2.61362,-305.564,140.325)">
+                    <path d="M63.57,19.933L73.908,40.61L53.232,40.61L63.57,19.933Z" style="fill:#56b6c2;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
