@@ -1,4 +1,31 @@
 /********************************************************
+ * #################   Color Palette   ##################
+********************************************************/
+
+:root {
+  /* Dark theme */
+  --jet-black: #17191E;
+  --black: #282c34;
+  --red: #e06c75;
+  --yellow: #e5c07b;
+  --green: #98c379;
+  --cyan: #56b6c2;
+  --blue: #61afef;
+  --purple: #c678dd;
+  --gray: #72777F;
+  --light-gray: #abb2bf;
+  --bright-gray: #d9e1f2;
+  /* Light Theme */
+  --dark-gray: #5c6370;
+  --dark-red: #e45649;
+  --dark-yellow: #c18401;
+  --dark-green: #50a14f;
+  --dark-cyan: #0184bc;
+  --dark-blue: #4078f2;
+  --dark-purple: #a626a4;
+}
+
+/********************************************************
  * ####################   Elements   ####################
 ********************************************************/
 
@@ -30,24 +57,25 @@ h1 {
   margin: 0px 18px 64px 18px;
   position: relative;
   z-index: 3;
-  right: 170px;
+  right: 154px;
   font-size: 46px;
-  font-weight: 400;
-  letter-spacing: 6px;
+  font-weight: 500;
+  letter-spacing: 9px;
+  color: white;
 }
 
 /* set style for h2 */
 h2 {
-  margin: 30px 45px 10px 10px;
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 2px;
+  margin: 30px 50px 10px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 4px;
 }
 
 /* set style for h3 */
 h3 {
   margin: 5px 0 5px 0;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
 }
 /* set style for h4 */
@@ -70,6 +98,130 @@ h5 {
 /********************************************************
  * ###################   Classes   ######################
 ********************************************************/
+/* --------  backgrounds  -------- */
+
+/* gradient */
+
+.gradient-bg-dark-gray {
+  background: linear-gradient(60deg, var(--jet-black) 0%, var(--black) 50%);
+}
+
+.gradient-bg-light-gray {
+  background: linear-gradient(
+    60deg,
+    var(--dark-gray) 0%,
+    var(--light-gray) 50%
+  );
+}
+
+.gradient-bg-bright-gray {
+  background: linear-gradient(60deg, var(--bright-gray) 0%, white 75%);
+}
+
+.gradient-bg-blue {
+  background-image: linear-gradient(
+    60deg,
+    var(--dark-blue) 0%,
+    var(--blue) 50%
+  );
+}
+
+.gradient-bg-vert {
+  background: linear-gradient(var(--dark-gray) 0%, var(--light-gray) 100%);
+}
+
+/* solid */
+.dark-bg {
+  background-color: var(--black);
+}
+
+.dark-gray-bg {
+  background-color: var(--dark-gray);
+}
+
+.cyan-bg {
+  background-color: var(--cyan);
+}
+
+.gray-bg {
+  background-color: var(--light-gray);
+}
+
+.green-bg {
+  background-color: var(--dark-green);
+}
+
+.light-bg {
+  background-color: var(--light-gray);
+}
+
+/* ------------ colors ------------ */
+
+.black {
+  color: var(--black);
+}
+.blue {
+  color: var(--blue);
+}
+
+.cyan {
+  color: var(--cyan);
+}
+
+.dark-cyan {
+  color: var(--dark-cyan);
+}
+
+.dark-blue {
+  color: var(--dark-blue);
+}
+.dark-green {
+  color: var(--dark-green);
+}
+
+.dark-gray {
+  color: var(--dark-gray);
+}
+
+.dark-purple {
+  color: var(--dark-purple);
+}
+
+.dark-red {
+  color: var(--dark-red);
+}
+
+.dark-yellow {
+  color: var(--dark-yellow);
+}
+
+.light-gray {
+  color: var(--light-gray);
+}
+
+.green {
+  color: var(--green);
+}
+
+.med-gray {
+  color: var(--gray);
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.red {
+  color: var(--red);
+}
+
+.white {
+  color: white;
+}
+
+.yellow {
+  color: var(--yellow);
+}
 
 /* 
 * #####################  Layout  #######################
@@ -91,6 +243,7 @@ h5 {
   justify-content: flex-start;
   align-items: center;
   color: white;
+  /* font-weight: 500; */
 }
 
 .j-center-a-i-start {
@@ -105,7 +258,7 @@ h5 {
 
 .right-below-banner {
   margin-top: -30px;
-  margin-right: 25px;
+  margin-right: 50px;
 }
 
 .right-main {
@@ -128,7 +281,8 @@ h5 {
 .banner-bg {
   position: absolute;
   z-index: 1;
-  width: 8.5in;
+  width: 8.2in;
+  /* width: 8.5in; */
   height: 96px;
   top: 0px;
   left: -272px;
@@ -140,8 +294,7 @@ h5 {
   width: 128px;
   height: 164px;
   top: -35px;
-  left: -192px;
-  /* left: -290px; */
+  left: -172px;
 }
 
 .photo-frame {
@@ -149,7 +302,7 @@ h5 {
   display: flex;
   position: relative;
   z-index: 3;
-  background-color: white;
+  /* background-color: white; */
 }
 
 .profile-pic {
@@ -172,7 +325,6 @@ h5 {
 .category-title {
   margin: 5px 0px 5px 5px;
   letter-spacing: 1px;
-  /* align-self: flex-start; */
 }
 
 /* ----  Skills  ---- */
@@ -180,9 +332,9 @@ h5 {
 .category-list {
   display: flex;
   flex-direction: column;
-  padding: 5px 18px;
+  padding: 5px 5px 5px 18px;
   margin: 0;
-  list-style-type: ">  ";
+  list-style-type: "/   ";
 }
 
 .skills-main {
@@ -202,13 +354,14 @@ h5 {
 .edu-list {
   display: flex;
   flex-direction: column;
-  padding: 5px 15px;
-  margin: 0;
+  align-items: flex-end;
+  padding: 5px 12px;
+  margin: 0 -2px 0 0;
   list-style-type: "> ";
 }
 
 .edu-school {
-  margin: 5px 0 5px 10px;
+  margin: 5px 0 5px 15px;
 }
 
 /* 
@@ -227,13 +380,46 @@ h5 {
 }
 
 .contact-item {
-  color: white;
   text-decoration: none;
 }
 
 .contact-item-link {
   margin: 8px 0 8px 0;
 }
+
+
+/* 
+* ######################  Effects  ####################
+*/
+
+.shadow-down-left {
+  box-shadow: -6px 12px 24px rgba(23,25, 30, .6);
+}
+
+/* .shadow-down-left {
+  box-shadow: -8px 16px 24px var(--jet-black);
+} */
+
+.shadow-down-right {
+  box-shadow: 6px 12px 20px rgba(23,25, 30, .6);
+}
+
+.shadow-right {
+  box-shadow: 5px 0px 20px rgba(40, 44, 52, .8);
+}
+
+.shadow-in-left {
+  box-shadow: inset 8px 26px 10px rgba(40, 44, 52, .6);
+}
+
+.shadow-in-right {
+  box-shadow: inset -20px -20px 20px var(--jet-black);
+}
+
+.shadow-in-up {
+  box-shadow: inset 0px -26px 20px var(--jet-black);
+}
+
 
 /* 
 * #####################  Experience  ##################
@@ -270,7 +456,7 @@ h5 {
 .timeline-dot {
   width: 8px;
   height: 8px;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .vertical-line {
@@ -279,7 +465,7 @@ h5 {
   width: 2px;
   height: 33px;
   left: 3px;
-  background-color: black;
+  /* background-color: black; */
 }
 
 /* 
@@ -298,7 +484,7 @@ h5 {
 .project-link {
   margin: 5px 45px 5px 45px;
   letter-spacing: 1px;
-  color: black;
+  /* color: black; */
   /* font-weight: 500; */
   text-decoration: none;
 }
@@ -343,11 +529,13 @@ h5 {
 .title-right-lg {
   margin: 8px 35px;
   letter-spacing: 2px;
+  color: var(--jet-black);
 }
 
 .title-right-md {
   margin: 8px 35px 0 35px;
   letter-spacing: 1px;
+  color: var(--dark-cyan);
 }
 
 /* 
