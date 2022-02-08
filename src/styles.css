@@ -36,7 +36,7 @@
 
 html {
   -webkit-print-color-adjust: exact;
-  -webkit-filter: opacity(1);
+  /* -webkit-filter: opacity(1); */
 }
 
 /* Sets the general page format */
@@ -45,7 +45,7 @@ body {
   width: 8.5in;
   height: 11in;
   background-size: 100%;
-  font-family: "Fira Sans", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 11px;
   line-height: 1.6;
 }
@@ -120,7 +120,7 @@ h5 {
 }
 
 .gradient-bg-bright-gray {
-  background: linear-gradient(60deg, var(--bright-gray) 0%, white 75%);
+  background: linear-gradient(60deg, var(--bright-gray) 0%, white 100%);
 }
 
 .gradient-bg-blue {
