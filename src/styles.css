@@ -59,7 +59,7 @@ header {
 
 /* Set styling for h1 */
 h1 {
-  margin: 6px 18px 64px 18px;
+  margin: 6px 18px 56px 18px;
   position: relative;
   z-index: 3;
   right: 154px;
@@ -298,7 +298,7 @@ h5 {
   z-index: 2;
   width: 128px;
   height: 84px;
-  top: -29px;
+  top: -25px;
   left: -172px;
 }
 
