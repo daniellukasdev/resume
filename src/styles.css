@@ -267,7 +267,7 @@ h5 {
 }
 
 .right-main {
-  flex: 2;
+  flex: 2.5;
 }
 
 .w-100 {
@@ -323,7 +323,7 @@ h5 {
 
 .category {
   align-self: flex-start;
-  padding: 10px 50px;
+  padding: 10px 32px;
   line-height: 2;
 }
 
