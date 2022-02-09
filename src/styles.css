@@ -313,7 +313,7 @@ h5 {
 .profile-pic {
   margin: 33px 0;
   width: 150px;
-  top: 18px;
+  top: 6px;
   position: relative;
 }
 
@@ -379,7 +379,7 @@ h5 {
   justify-content: space-between;
 }
 .contact-group {
-  margin: 20px 0 5px 0;
+  margin: 5px 0 5px 0;
   padding: 0 0 0 10px;
   width: 100%;
   list-style: none;
