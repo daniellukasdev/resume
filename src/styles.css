@@ -59,7 +59,7 @@ header {
 
 /* Set styling for h1 */
 h1 {
-  margin: 0px 18px 64px 18px;
+  margin: 6px 18px 64px 18px;
   position: relative;
   z-index: 3;
   right: 154px;
@@ -71,7 +71,7 @@ h1 {
 
 /* set style for h2 */
 h2 {
-  margin: 30px 50px 10px 10px;
+  margin: 20px 50px 6px 10px;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 4px;
@@ -288,17 +288,17 @@ h5 {
   z-index: 1;
   width: 8.2in;
   /* width: 8.5in; */
-  height: 96px;
+  height: 84px;
   top: 0px;
-  left: -272px;
+  left: -256px;
 }
 
 .banner-block {
   position: relative;
   z-index: 2;
   width: 128px;
-  height: 164px;
-  top: -35px;
+  height: 84px;
+  top: -29px;
   left: -172px;
 }
 
@@ -313,7 +313,7 @@ h5 {
 .profile-pic {
   margin: 33px 0;
   width: 150px;
-  top: 26px;
+  top: 18px;
   position: relative;
 }
 
@@ -419,7 +419,7 @@ h5 {
 */
 
 .shadow-down-left {
-  box-shadow: -4px 8px 18px rgba(23,25, 30, .7);
+  box-shadow: -2px 6px 14px rgba(23,25, 30, .7);
 }
 
 /* .shadow-down-left {
@@ -454,6 +454,7 @@ h5 {
 .exp-group {
   justify-content: flex-start;
   height: 100%;
+  margin-bottom: 2px;
 }
 .exp-title {
   margin: 5px 25px 0 25px;
@@ -508,7 +509,7 @@ h5 {
 */
 
 .project-link {
-  margin: 5px 45px 5px 45px;
+  margin: 3px 45px 3px 45px;
   letter-spacing: 1px;
   /* color: black; */
   /* font-weight: 500; */
@@ -553,13 +554,13 @@ h5 {
 */
 
 .title-right-lg {
-  margin: 8px 35px;
+  margin: 4px 35px;
   letter-spacing: 2px;
   color: var(--jet-black);
 }
 
 .title-right-md {
-  margin: 8px 35px 0 35px;
+  margin: 4px 35px 0 35px;
   letter-spacing: 1px;
   color: var(--dark-cyan);
 }
