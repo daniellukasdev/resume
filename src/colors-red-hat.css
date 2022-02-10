@@ -1,0 +1,185 @@
+/********************************************************
+ * #################   Color Palette   ##################
+********************************************************/
+
+:root {
+    /* Dark theme */
+    --jet-black: #1B1B1B;
+    --black: #2E2E2E;
+    --gray: #6C6C6C;
+    --light-gray: #C9C9C9;
+    --bright-gray: #DEDEDE;
+    --red: #EE0001;
+    --light-red: #F56D6D;
+    --yellow: #FEED79;
+    --green: #8DC9A2;
+    --cyan: #57BEDB;
+    --blue: #78A1DA;
+    --purple: #c678dd;
+    /* Light Theme */
+    --dark-gray: #4D4D4D;
+    --dark-red: #BE0000;
+    --dark-yellow: #F88D44;
+    --dark-green: #50a14f;
+    --dark-cyan: #04A3CC;
+    --dark-blue: #3778C8;
+    --dark-purple: #Purple;
+  }
+
+  /* --------  backgrounds  -------- */
+
+/* gradient */
+
+.gradient-bg-dark-gray {
+    background: linear-gradient(60deg, var(--jet-black) 0%, var(--black) 50%);
+  }
+  
+  .gradient-bg-light-gray {
+    background: linear-gradient(
+      60deg,
+      var(--dark-gray) 0%,
+      var(--light-gray) 50%
+    );
+  }
+  
+  .gradient-bg-bright-gray {
+    background: linear-gradient(60deg, var(--bright-gray) 0%, white 100%);
+  }
+  
+  .gradient-bg-blue {
+    background-image: linear-gradient(
+      60deg,
+      var(--dark-blue) 0%,
+      var(--blue) 50%
+    );
+  }
+  
+  .gradient-bg-vert {
+    background: linear-gradient(var(--dark-gray) 0%, var(--light-gray) 100%);
+  }
+  
+  /* solid */
+  .dark-bg {
+    background-color: var(--black);
+  }
+  
+  .dark-gray-bg {
+    background-color: var(--dark-gray);
+  }
+  
+  .cyan-bg {
+    background-color: var(--cyan);
+  }
+  
+  .gray-bg {
+    background-color: var(--light-gray);
+  }
+  
+  .green-bg {
+    background-color: var(--dark-green);
+  }
+  
+  .light-bg {
+    background-color: var(--light-gray);
+  }
+  
+  /* ------------ colors ------------ */
+  
+  .black {
+    color: var(--black);
+  }
+  .blue {
+    color: var(--blue);
+  }
+  
+  .cyan {
+    color: var(--cyan);
+  }
+  
+  .dark-cyan {
+    color: var(--dark-cyan);
+  }
+  
+  .dark-blue {
+    color: var(--dark-blue);
+  }
+  .dark-green {
+    color: var(--dark-green);
+  }
+  
+  .dark-gray {
+    color: var(--dark-gray);
+  }
+  
+  .dark-purple {
+    color: var(--dark-purple);
+  }
+  
+  .dark-red {
+    color: var(--dark-red);
+  }
+  
+  .dark-yellow {
+    color: var(--dark-yellow);
+  }
+  
+  .light-gray {
+    color: var(--light-gray);
+  }
+  
+  .green {
+    color: var(--green);
+  }
+  
+  .med-gray {
+    color: var(--gray);
+  }
+  
+  .purple {
+    color: var(--purple);
+  }
+  
+  .red {
+    color: var(--red);
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  .yellow {
+    color: var(--yellow);
+  }
+
+  /* 
+* ######################  Effects  ####################
+*/
+
+.shadow-down-left {
+    box-shadow: -2px 6px 14px rgba(23,25, 30, .7);
+  }
+  
+  /* .shadow-down-left {
+    box-shadow: -8px 16px 24px var(--jet-black);
+  } */
+  
+  .shadow-down-right {
+    box-shadow: 6px 12px 20px rgba(23,25, 30, .6);
+  }
+  
+  .shadow-right {
+    box-shadow: 5px 0px 20px rgba(40, 44, 52, .8);
+  }
+  
+  .shadow-in-left {
+    box-shadow: inset 8px 26px 10px rgba(40, 44, 52, .6);
+  }
+  
+  .shadow-in-right {
+    box-shadow: inset -20px -20px 20px var(--jet-black);
+  }
+  
+  .shadow-in-up {
+    box-shadow: inset 0px -26px 20px var(--jet-black);
+  }
+  

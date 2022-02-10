@@ -1,29 +1,5 @@
-/********************************************************
- * #################   Color Palette   ##################
-********************************************************/
-
-:root {
-  /* Dark theme */
-  --jet-black: #17191E;
-  --black: #282c34;
-  --red: #e06c75;
-  --yellow: #e5c07b;
-  --green: #98c379;
-  --cyan: #56b6c2;
-  --blue: #61afef;
-  --purple: #c678dd;
-  --gray: #72777F;
-  --light-gray: #abb2bf;
-  --bright-gray: #d9e1f2;
-  /* Light Theme */
-  --dark-gray: #5c6370;
-  --dark-red: #e45649;
-  --dark-yellow: #c18401;
-  --dark-green: #50a14f;
-  --dark-cyan: #0184bc;
-  --dark-blue: #4078f2;
-  --dark-purple: #a626a4;
-}
+/* @import url(./colors-red-hat.css); */
+@import url(./colors-atom-one-dark.css);
 
 /********************************************************
  * ####################   Elements   ####################
@@ -103,130 +79,7 @@ h5 {
 /********************************************************
  * ###################   Classes   ######################
 ********************************************************/
-/* --------  backgrounds  -------- */
 
-/* gradient */
-
-.gradient-bg-dark-gray {
-  background: linear-gradient(60deg, var(--jet-black) 0%, var(--black) 50%);
-}
-
-.gradient-bg-light-gray {
-  background: linear-gradient(
-    60deg,
-    var(--dark-gray) 0%,
-    var(--light-gray) 50%
-  );
-}
-
-.gradient-bg-bright-gray {
-  background: linear-gradient(60deg, var(--bright-gray) 0%, white 100%);
-}
-
-.gradient-bg-blue {
-  background-image: linear-gradient(
-    60deg,
-    var(--dark-blue) 0%,
-    var(--blue) 50%
-  );
-}
-
-.gradient-bg-vert {
-  background: linear-gradient(var(--dark-gray) 0%, var(--light-gray) 100%);
-}
-
-/* solid */
-.dark-bg {
-  background-color: var(--black);
-}
-
-.dark-gray-bg {
-  background-color: var(--dark-gray);
-}
-
-.cyan-bg {
-  background-color: var(--cyan);
-}
-
-.gray-bg {
-  background-color: var(--light-gray);
-}
-
-.green-bg {
-  background-color: var(--dark-green);
-}
-
-.light-bg {
-  background-color: var(--light-gray);
-}
-
-/* ------------ colors ------------ */
-
-.black {
-  color: var(--black);
-}
-.blue {
-  color: var(--blue);
-}
-
-.cyan {
-  color: var(--cyan);
-}
-
-.dark-cyan {
-  color: var(--dark-cyan);
-}
-
-.dark-blue {
-  color: var(--dark-blue);
-}
-.dark-green {
-  color: var(--dark-green);
-}
-
-.dark-gray {
-  color: var(--dark-gray);
-}
-
-.dark-purple {
-  color: var(--dark-purple);
-}
-
-.dark-red {
-  color: var(--dark-red);
-}
-
-.dark-yellow {
-  color: var(--dark-yellow);
-}
-
-.light-gray {
-  color: var(--light-gray);
-}
-
-.green {
-  color: var(--green);
-}
-
-.med-gray {
-  color: var(--gray);
-}
-
-.purple {
-  color: var(--purple);
-}
-
-.red {
-  color: var(--red);
-}
-
-.white {
-  color: white;
-}
-
-.yellow {
-  color: var(--yellow);
-}
 
 /* 
 * #####################  Layout  #######################
@@ -413,37 +266,6 @@ h5 {
 
 .icon-lower {
   bottom: -1px;
-}
-/* 
-* ######################  Effects  ####################
-*/
-
-.shadow-down-left {
-  box-shadow: -2px 6px 14px rgba(23,25, 30, .7);
-}
-
-/* .shadow-down-left {
-  box-shadow: -8px 16px 24px var(--jet-black);
-} */
-
-.shadow-down-right {
-  box-shadow: 6px 12px 20px rgba(23,25, 30, .6);
-}
-
-.shadow-right {
-  box-shadow: 5px 0px 20px rgba(40, 44, 52, .8);
-}
-
-.shadow-in-left {
-  box-shadow: inset 8px 26px 10px rgba(40, 44, 52, .6);
-}
-
-.shadow-in-right {
-  box-shadow: inset -20px -20px 20px var(--jet-black);
-}
-
-.shadow-in-up {
-  box-shadow: inset 0px -26px 20px var(--jet-black);
 }
 
 
